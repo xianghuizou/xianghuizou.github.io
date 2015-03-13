@@ -5,6 +5,21 @@
   <meta charset="UTF-8">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!-- my own stylesheet -->
+<link rel="stylesheet" href="style.css">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+
+        $("div.personal h4").on("click", function(){
+          $(".skill").slideToggle();
+        });
+      })
+
+      </script>
 
 </head>
 <body>
@@ -18,8 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://www.sylisheng.com/wh.asp">
-      <img alt="Brand" src="http://ligasluha.ru/images/M_images/lisound_logo.jpg">
+      <a class="navbar-brand" href="index2.html">Lisound 
       </a>
     </div>
 
@@ -45,6 +59,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6">
@@ -127,8 +142,10 @@
             </table>
           </section>
 
-          <section>
-            <h4>Skills</h4>
+          <div class="col-md-6 personal">
+            <h4 class="page-header">Personal</h4>
+            <div class="skill">
+            <h5>Skills</h5>
             <ul>
               <li>Molecular biology</li>
               <li>Biochemistry</li>
@@ -137,18 +154,22 @@
               <li>Tennis</li>
               <li>Sleeping for 12 hours</li>
             </ul>
-          </section>
-          <section>
-            <h4>Hobbies</h4>
+          </div>
+          
+            <div class="skill">
+            <h5>Hobbies</h5>
             <ul>
               <li>Cooking</li>
               <li>Watch Soccer</li>
               <p>My favorite league is the premier league in England and Chelsea is the club that I will support for a life-long time.</p>
               <li>Traveling</li>
             </ul>
-          </section>
+            </div>
+          </div>
+          
         </div>
       </div>
      </div> 
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

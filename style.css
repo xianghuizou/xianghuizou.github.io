@@ -1,9 +1,16 @@
-body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(linedpaper.png) repeat;
+h2 {
+	color: red;
+	padding: 4px;
 }
-#wrapper {
-  width: 960px;
-  margin: 20px auto;
+
+h3 {
+	font-size: 20px;
+	padding: 4px;
+}
+div.personal h4 {
+	cursor: pointer;
+}
+
+.skill {
+	display:none;
 }
