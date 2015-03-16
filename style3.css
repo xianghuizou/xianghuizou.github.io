@@ -1,0 +1,19 @@
+h3{
+	color:blue;
+}
+h1{
+	color:Red;
+}
+#history{
+	background-color: lavender;
+	color: green;
+	font-weight: bold
+}
+#Roster{
+	font-weight: bold;
+	color: blue;
+}
+
+body{
+	background-image: url(http://teamspictures.com/wp-content/uploads/2015/02/chelsea-football-club-flag-12.jpg);
+}
